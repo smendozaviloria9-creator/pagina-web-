@@ -1,0 +1,31 @@
+header{
+    background-color: #b1b1b1;
+    width: auto;
+    height: 200px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #c9c7c7;
+    width: auto;
+
+    
+}
+.mapa{
+
+    background-color: #fffcfc;
+}
+.btn-volver { display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    }
+    .btn-volver:hover {
+    background: #d4af37;
+    transform: scale(1.05);
+    }
