@@ -3,15 +3,14 @@ header{
     width: auto;
     height: 200px;
 }
-div{
+.mapa {
     display: flex;
     justify-content: center;
-    
-    background-color: #c9c7c7;
-    width: auto;
-
-    
+    background-color: #fffcfc;
+    padding: 20px;
 }
+    
+
 .mapa{
 
     background-color: #fffcfc;
@@ -29,3 +28,25 @@ div{
     background: #d4af37;
     transform: scale(1.05);
     }
+/* Navegación */
+nav { 
+    background: #1a1a1a;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ }
+nav a { 
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    }
+nav a:hover { color: #d4af37; }
+.mapa iframe {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
